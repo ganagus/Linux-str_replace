@@ -1,31 +1,6 @@
 # Linux-str_replace
 
-This perl script will enable you to do literal search and replace in files (in place) and in STDIN.
+This project was forked from the following Github repository: [Linux-str_replace](https://github.com/Samer-Al-iraqi/Linux-str_replace), because the raw script file is used directly from my projects:
+* [my-servers](https://github.com/ganagus/my-servers)
 
-No messing with regular expression anymore. No more `sed` or `awk` or `perl -pie`. This handy script written in perl will replace text exactly as you want, No matter it has the so-called special characters or not. Just like `str_replace` PHP function.
-
-#Usage
-```bash
-str_replace Search Replace File # replace in File in place 
-```
-##OR 
-```bash
-STDIN | str_replace Search Replace # to STDOUT
-```
-
-#install
-Execute this line in your linux server
-```bash
-wget https://raw.githubusercontent.com/Samer-Al-iraqi/Linux-str_replace/master/str_replace.pl \
--O /usr/local/bin/str_replace && \
-chmod a+x /usr/local/bin/str_replace
-```
-
-Notes:
-* Search and replace always case-sensitive 
-* Always do global search and replace
-* Don't care about lines.
-* It may work in Windows as well.
-* Tested with unicode (I suprised it worked correctly!)
-
-Hope it will help. Thanks
+Thanks @Samir-Al-iraqi for the script, because it solved my problem when trying to replace a substring within a file, in which I could't solve it using sed and perl commands.
